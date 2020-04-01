@@ -1,0 +1,17 @@
+.features {
+  font-weight: $font-weight-200;
+  padding: 70px 0;
+  text-align: center;
+  
+  &__title {
+    font-weight: $font-weight-200;
+  }
+
+  &__strapline {
+    color: $very-dark-blue;
+  }
+
+  &__content {
+    margin-bottom: 50px;
+  }
+}

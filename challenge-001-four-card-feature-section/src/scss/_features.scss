@@ -1,17 +1,19 @@
 .features {
   font-weight: $font-weight-200;
   padding: 70px 0;
-  text-align: center;
   
   &__title {
+    @include center-text;
     font-weight: $font-weight-200;
   }
-
+  
   &__strapline {
+    @include center-text;
     color: $very-dark-blue;
   }
-
+  
   &__content {
+    @include center-text;
     margin-bottom: 50px;
   }
 }

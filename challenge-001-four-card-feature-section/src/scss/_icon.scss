@@ -1,0 +1,22 @@
+.icon {
+  background-position: center;
+  background-size: cover;
+  height: 48px;
+  width: 48px;
+
+  &--supervisor {
+    background-image: url('../images/icon-supervisor.svg');
+  }
+
+  &--team-builder {
+    background-image: url('../images/icon-team-builder.svg');
+  }
+
+  &--karma {
+    background-image: url('../images/icon-karma.svg');
+  }
+
+  &--calculator {
+    background-image: url('../images/icon-calculator.svg');
+  }
+}

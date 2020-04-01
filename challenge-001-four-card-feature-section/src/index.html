@@ -15,6 +15,12 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- Styles added from starter files for the challenge -->
   <style>
+    .page-footer {
+      bottom: 0;
+      position: absolute;
+      width: 100vw;
+    }
+
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -27,26 +33,55 @@
 </head>
 
 <body>
-  Reliable, efficient delivery
-  Powered by Technology
+  <div class="container">
+    <section class="features">
+      <h1>Reliable, efficient delivery</h1>
+      <h2>Powered by Technology</h2>
 
-  Our Artificial Intelligence powered tools use millions of project data points
-  to ensure that your project is successful
+      <p>
+        Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
+        successful
+      </p>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="cards">
+        <div class="card">
+          <div class="card__header">Supervisor</div>
+          <div class="card__content">Monitors activity to identify project roadblocks</div>
+          <div class="card__footer">
+            <div class="icon icon-supervisor"></div>
+          </div>
+        </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+        <div class="card-group">
+          <div class="card">
+            <div class="card__header">Team Builder</div>
+            <div class="card__content">Scans our talent network to create the optimal team for your project</div>
+            <div class="card__footer">
+              <div class="icon icon-team-builder"></div>
+            </div>
+          </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+          <div class="card">
+            <div class="card__header">Karma</div>
+            <div class="card__content">Regularly evaluates our talent to ensure quality</div>
+            <div class="card__footer">
+              <div class="icon icon-karma"></div>
+            </div>
+          </div>
+        </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+        <div class="card">
+          <div class="card__header">Calculator</div>
+          <div class="card__content">Uses data from past projects to provide better delivery estimates</div>
+          <div class="card__footer">
+            <div class="icon icon-calculator"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-
-  <footer>
+  <footer class="page-footer">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/paulio84/FrontendProjects" target="_blank">Paul Terry</a>.

@@ -2,6 +2,10 @@
   font-weight: $font-weight-400;
   padding: 70px 0;
   
+  @media (min-width: $desktop) {
+    padding: 90px 0;
+  }
+  
   &__title {
     @include center-text;
     font-weight: $font-weight-400;

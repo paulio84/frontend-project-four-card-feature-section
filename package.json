@@ -6,6 +6,7 @@
   "keywords": [],
   "author": "Paul Terry",
   "license": "ISC",
+  "repository": "https://github.com/paulio84/frontend-project-four-card-feature-section",
   "scripts": {
     "clean": "rm -rf dist/",
     "start": "parcel src/index.html -p 3000",

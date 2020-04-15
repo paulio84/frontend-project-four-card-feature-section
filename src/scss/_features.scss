@@ -2,37 +2,68 @@
   font-weight: $font-weight-400;
   padding: 70px 0;
   
-  @media (min-width: $desktop) {
+  @media (min-width: $tablet-sm) {
     padding: 90px 0;
   }
   
   &__title {
     @include center-text;
+    font-size: 2rem;
     font-weight: $font-weight-400;
 
-    @media (min-width: $desktop) {
-      font-size: $font-size-32;
+    @media (min-width: $mobile-lg) {
+      font-size: 2.2rem;
+    }
+
+    @media (min-width: $tablet-sm) {
+      font-size: 3.2rem;
+    }
+
+    @media (min-width: $tablet-lg) {
+      font-size: 3.6rem;
     }
   }
   
   &__strapline {
     @include center-text;
     color: $very-dark-blue;
+    font-size: 2rem;
     
-    @media (min-width: $desktop) {
-      font-size: $font-size-32;
+    @media (min-width: $mobile-lg) {
+      font-size: 2.2rem;
+    }
+
+    @media (min-width: $tablet-sm) {
+      font-size: 3.2rem;
+    }
+
+    @media (min-width: $tablet-lg) {
+      font-size: 3.6rem;
     }
   }
   
   &__content {
     @include center-text;
+    font-size: 1.3rem;
     margin-bottom: 50px;
+
+    @media (min-width: $mobile-lg) {
+      font-size: 1.6rem;
+    }
     
-    @media (min-width: $desktop) {
-      margin: 20px auto;
+    @media (min-width: $tablet-sm) {
+      font-size: 2rem;
+      margin: 0 auto;
+      margin-top: 30px;
       margin-bottom: 60px;
-      max-width: 545px;
-      width: 50%;
+      max-width: $tablet-sm;
+      width: 75%;
+    }
+
+    @media (min-width: $tablet-lg) {
+      font-size: 2.4rem;
+      margin-top: 40px;
+      margin-bottom: 70px;
     }
   }
 }
